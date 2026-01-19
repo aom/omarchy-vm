@@ -1,6 +1,6 @@
 # Omarchy on a VM
 
-A linux distro on a Proxmox VM to host VS Code Server for web access. Chose Omarchy because I don't have any other use for the discreet GPU on my single node Proxmox machine.
+A linux distro on a Proxmox VM to host VS Code Server for web access. Chose Omarchy because I don't have any other use for the integrated GPU on my single node Proxmox machine.
 
 VM specs:
 
@@ -8,7 +8,7 @@ VM specs:
 * 16GB memory (out of 32GB)
 * 100GB disk
 * Display: Virtu???
-* Added PCI device: discrete GPU
+* Added PCI device: integrated GPU
 * Mapped Thinkpad Trackpoint USB device to VM (with trackball)
 
 ## Performance improvements
